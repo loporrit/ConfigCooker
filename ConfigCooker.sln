@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigCooker", "ConfigCooker\ConfigCooker.csproj", "{BBBE15FF-C81F-CA59-6076-880EDC19D826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BunnyWhispers", "BunnyWhispers", "{641B107A-7C13-5519-854A-63BE9FF806D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.NaCl", "BunnyWhispers\Chaos.NaCl\Chaos.NaCl.csproj", "{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBE15FF-C81F-CA59-6076-880EDC19D826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBE15FF-C81F-CA59-6076-880EDC19D826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBE15FF-C81F-CA59-6076-880EDC19D826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBE15FF-C81F-CA59-6076-880EDC19D826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D73AD996-F3B3-9FD7-BEA6-14CF468DE74E} = {641B107A-7C13-5519-854A-63BE9FF806D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C956A9C-C8C5-47AB-8988-2CF4665773D8}
+	EndGlobalSection
+EndGlobal

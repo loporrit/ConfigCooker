@@ -1,0 +1,3 @@
+[submodule "BunnyWhispers"]
+	path = BunnyWhispers
+	url = https://github.com/loporrit/BunnyWhispers.git
